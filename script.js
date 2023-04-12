@@ -97,7 +97,7 @@ inputDesimal = (dot) => {
         return;
     }
     currentNumber += dot;
-    tampilan += 'dot';
+    tampilan += '.';
 }
 
 decimal.addEventListener("click", (event) => {
